@@ -1,0 +1,43 @@
+#feedback-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #feedback-form h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
